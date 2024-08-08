@@ -1,0 +1,17 @@
+1. recipe name: {name of the recipe the comment was posted on}
+2. recipe number: {placement of the recipe on the top 100 recipes list}
+3. recipe code: {unique id of the recipe used by the site}
+4. comment id: {unique id of the comment}
+5. user id: {unique id of the user who left the comment}
+6. user name: {name of the user}
+7. user reputation: {internal score of the site, roughly quantifying the past behavior of the user}
+8. create at: {time at which the comment was posted as a Unix timestamp}
+9. reply count: {number of replies to the comment}
+10. thumbs up: {number of up-votes the comment has received}
+11. thumbs down: {number of down-votes the comment has received}
+12. stars: {the score on a 1 to 5 scale that the user gave to the recipe. A score of 0 means that no score was given}
+13. best score: {score of the comment, likely used by the site the help determine the order in the comments that appear in}
+14. text: {the text content of the comment}
+
+pip install textblob
+pip install pandas nltk scikit-learn matplotlib
